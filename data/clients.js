@@ -134,6 +134,11 @@ const clients = [
     image: "/images/clients/brand30.png",
     name: "Brand 30",
   },
+  {
+    id: 28,
+    image: "/images/clients/31.jpeg",
+    name: "Hi-Tech Pipes",
+  },
 ];
 
 export default clients;

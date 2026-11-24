@@ -189,10 +189,11 @@ export default function Contact() {
     },
     {
       city: "Latur",
-      type: "Service Node",
-      address: "Road no 3, Vyankatesh Nagar, Ambajogai Road, Latur - 413512",
-      mapLink: "https://maps.google.com/?q=Road+no+3,+Vyankatesh+Nagar,+Ambajogai+Road,+Latur+-+413512",
-      phone: "+91 8484003636",
+      subName: "Tirupati Fire and Safety Solutions",
+      type: "Associate / Sister Concern",
+      address: "Hotel Shantai, Ambajogai Road, Latur - 413512",
+      mapLink: "https://maps.google.com/?q=Hotel+Shantai,+Ambajogai+Road,+Latur+-+413512",
+      phone: "+91 93263 10074",
       email: "hrishikesh@shreeatharva.com",
       color: "bg-[#fef2f2] border-l-[6px] border-l-[#DA1F28] border-y-slate-200 border-r-slate-200",
       accent: "#DA1F28"
@@ -275,7 +276,12 @@ export default function Contact() {
                   <MapPin style={{ color: office.accent }} className="w-5 h-5 md:w-6 md:h-6" />
                 </a>
                 <span className="text-[9px] md:text-[10px] font-black uppercase tracking-widest text-slate-500 block mb-1 md:mb-2">{office.type}</span>
-                <h3 className="text-2xl md:text-3xl font-black text-[#0a132e] uppercase mb-4 md:mb-6">{office.city}</h3>
+                <h3 className="text-2xl md:text-3xl font-black text-[#0a132e] uppercase mb-1 md:mb-2">{office.city}</h3>
+                {office.subName ? (
+                  <p className="text-xs md:text-sm font-bold text-[#DA1F28] mb-3 md:mb-4">{office.subName}</p>
+                ) : (
+                  <div className="mb-3 md:mb-4" />
+                )}
                 <div className="space-y-5 md:space-y-6">
                   <a href={office.mapLink} target="_blank" rel="noopener noreferrer" className="block text-slate-700 hover:text-[#1A52A2] transition-colors font-bold leading-relaxed text-sm md:text-base">
                     {office.address}

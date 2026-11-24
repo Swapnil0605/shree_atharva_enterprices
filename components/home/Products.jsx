@@ -18,7 +18,6 @@ const products = [
     img: "/images/products/p11.png",
     brandColor: "#DA1F28",
     tag: "IMMEDIATE RESPONSE",
-    specTitle: "Types",
     specs: ["ABC Dry Powder", "CO2 Type", "Water/Foam Type", "Clean Agent"]
   },
   {
@@ -28,7 +27,6 @@ const products = [
     img: "/images/products/p22.png",
     brandColor: "#1A52A2",
     tag: "HEAVY INFRASTRUCTURE",
-    specTitle: "Components",
     specs: [
       "External Hydrants — Hydrant Valve",
       "Internal Risers — Hose Box, Hose Pipes, Branch Pipes",
@@ -43,7 +41,6 @@ const products = [
     img: "/images/products/p33.png",
     brandColor: "#0ea5e9",
     tag: "AUTOMATED CONTROL",
-    specTitle: "Components",
     specs: [
       "Pendent / Upright / Sidewall Sprinklers",
       "Alarm Gong",
@@ -58,7 +55,6 @@ const products = [
     img: "/images/products/p44.png",
     brandColor: "#e11d48",
     tag: "EARLY DETECTION",
-    specTitle: "Components",
     specs: [
       "Addressable / Conventional Panels",
       "Smoke / Heat / Multi / Beam Detectors",
@@ -74,7 +70,6 @@ const products = [
     img: "/images/products/p55.png",
     brandColor: "#059669",
     tag: "PRECISION REGULATION",
-    specTitle: "Types",
     specs: [
       "Butterfly Valves",
       "NRV / Check Valves",
@@ -241,10 +236,7 @@ export default function Products() {
                     {selectedProduct.desc}
                   </p>
 
-                  <div className="space-y-3">
-                    <p className="text-[10px] font-black uppercase tracking-widest text-[#0a132e] border-b border-slate-100 pb-2">
-                      {selectedProduct.specTitle || "Components"}
-                    </p>
+                  <div className="space-y-3 pt-4 border-t border-slate-100">
                     {selectedProduct.specs?.map((spec, i) => (
                       <div key={i} className="flex items-center gap-3">
                         <CheckCircle2 size={14} className="text-[#DA1F28]" />

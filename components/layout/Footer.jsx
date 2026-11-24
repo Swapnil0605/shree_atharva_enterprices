@@ -154,16 +154,19 @@ export default function Footer() {
               Latur Office
               <span className="absolute -bottom-2 left-0 w-8 h-1 bg-[#1A52A2]" />
             </h3>
+            <p className="text-xs font-bold text-[#DA1F28] -mt-3 md:-mt-5 mb-4">
+              Tirupati Fire & Safety Solutions
+            </p>
             <div className="space-y-5">
               <div className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-[#DA1F28] shrink-0 mt-0.5" />
                 <address className="text-slate-400 text-sm leading-relaxed not-italic">
-                  Road no 3, Vyankatesh Nagar, Ambajogai Road, Latur - 413512
+                  Hotel Shantai, Ambajogai Road, Latur - 413512
                 </address>
               </div>
               <div className="flex items-start gap-3">
                 <Phone className="w-5 h-5 text-[#DA1F28] shrink-0 mt-0.5" />
-                <a href="tel:+918484003636" className="text-slate-400 text-sm hover:text-white transition-colors underline-offset-4 hover:underline">+91 8484003636</a>
+                <a href="tel:+919326310074" className="text-slate-400 text-sm hover:text-white transition-colors underline-offset-4 hover:underline">+91 93263 10074</a>
               </div>
               <div className="flex items-start gap-3">
                 <Mail className="w-5 h-5 text-[#DA1F28] shrink-0 mt-0.5" />

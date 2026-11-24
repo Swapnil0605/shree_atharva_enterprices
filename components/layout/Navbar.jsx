@@ -75,7 +75,6 @@ const navLinks = [
         { name: "Hydrant Spares", href: "/products/hydrant-spares" },
         { name: "Paint", href: "/products/paint" },
         { name: "Hardware & Tools", href: "/products/hardware-tools" },
-        { name: "U Clamp", href: "/products/u-clamp" },
         {
           name: "Pressure Switch (DANFOSS) KP 36",
           href: "/products/pressure-switch",

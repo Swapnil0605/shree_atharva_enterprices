@@ -165,6 +165,7 @@ const productsData = [
           "/images/products/fire-extinguisher/9.jpg",
           "/images/products/fire-extinguisher/14.jpg",
           "/images/products/fire-extinguisher/15.jpg",
+          "/images/products/fire-extinguisher/17.jpeg",
         ]
       },
     ]
@@ -299,7 +300,13 @@ const productsData = [
         images: [
           "/images/products/hardware-and-tools/u-clamp/1.jpg",
           "/images/products/hardware-and-tools/u-clamp/2.jpg",
-          "/images/products/hardware-and-tools/u-clamp/3.jpg"
+          "/images/products/hardware-and-tools/u-clamp/3.jpg",
+          "/images/products/u-clamp/1.jpg",
+          "/images/products/u-clamp/2.jpg",
+          "/images/products/u-clamp/9.jpg",
+          "/images/products/u-clamp/15.jpg",
+          "/images/products/u-clamp/20.jpg",
+          "/images/products/u-clamp/21.jpg"
         ]
       }
     ]
@@ -571,7 +578,10 @@ const productsData = [
           "/images/products/sprinkler/flexible/2.jpg",
           "/images/products/sprinkler/flexible/3.jpg",
           "/images/products/sprinkler/flexible/4.jpg",
-          "/images/products/sprinkler/flexible/5.jpg"
+          "/images/products/sprinkler/flexible/5.jpg",
+          "/images/products/sprinkler/flexible/6.jpeg",
+          "/images/products/sprinkler/flexible/7.jpeg",
+          "/images/products/sprinkler/flexible/8.jpeg"
         ]
       },
       {
@@ -625,24 +635,6 @@ const productsData = [
           "/images/products/thermoplastic-hose/6.jpg",
           "/images/products/thermoplastic-hose/9.jpg",
           "/images/products/thermoplastic-hose/10.jpg"
-        ]
-      }
-    ]
-  },
-  {
-    slug: "u-clamp",
-    title: "U Clamp",
-    categories: [
-      {
-        name: "u-clamp",
-        description: "Heavy lock threaded base safety clamps designed specifically for high-load main ceiling installations. Features an extra thick profile to securely handle structural load-bearing requirements of heavy water-filled main header pipes.",
-        images: [
-          "/images/products/u-clamp/1.jpg",
-          "/images/products/u-clamp/2.jpg",
-          "/images/products/u-clamp/9.jpg",
-          "/images/products/u-clamp/15.jpg",
-          "/images/products/u-clamp/20.jpg",
-          "/images/products/u-clamp/21.jpg"
         ]
       }
     ]
